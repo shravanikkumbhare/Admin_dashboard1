@@ -1,0 +1,56 @@
+Here are some relevant test cases to ensure the sanctity of the code for the Admin Dashboard project:
+
+### Frontend Test Cases:
+
+1. **UI Rendering Test**:
+   - Ensure all UI components render correctly on different screen sizes and browsers.
+   - Test responsiveness of the dashboard on various devices.
+
+2. **User Authentication Test**:
+   - Verify that users can log in with valid credentials.
+   - Ensure unauthorized users cannot access the admin dashboard.
+
+3. **Data Visualization Test**:
+   - Check that charts/graphs display accurate data based on the provided dataset.
+   - Verify that the data is updated in real-time when changes occur.
+
+4. **User Management Test**:
+   - Test adding a new user and verify the user is added to the system.
+   - Test editing user details and ensure changes are reflected in the user profile.
+   - Test deleting a user and verify the user is removed from the system.
+
+### Backend Test Cases:
+
+1. **API Endpoint Testing**:
+   - Test each API endpoint with valid inputs and ensure expected responses are returned.
+   - Test each API endpoint with invalid inputs and ensure appropriate error messages are returned.
+
+2. **Data Integrity Test**:
+   - Verify that data stored in the database matches the expected format and schema.
+   - Test CRUD operations on data and ensure data integrity is maintained.
+
+3. **Authentication and Authorization Test**:
+   - Test authentication middleware to ensure only authenticated users can access protected routes.
+   - Test authorization middleware to ensure users can only perform actions they are authorized to do.
+
+4. **Error Handling Test**:
+   - Test error handling mechanisms for various scenarios such as server errors, database errors, and validation errors.
+   - Verify that error messages are informative and user-friendly.
+
+### Integration Test Cases:
+
+1. **End-to-End Workflow Test**:
+   - Simulate a complete workflow of a user interacting with the admin dashboard, from login to performing various actions.
+   - Verify that the system behaves as expected at each step of the workflow.
+
+2. **API Integration Test**:
+   - Test integration between frontend components and backend APIs to ensure seamless communication.
+   - Verify that data sent from the frontend is correctly processed by the backend and vice versa.
+
+3. **Database Integration Test**:
+   - Test integration between the application and the database to ensure proper data retrieval, storage, and manipulation.
+
+4. **Performance Test**:
+   - Measure the response time of API endpoints and database queries under different loads to ensure scalability and performance.
+
+By executing these test cases, we can ensure that the Admin Dashboard application functions correctly, maintains data integrity, and provides a reliable user experience.
